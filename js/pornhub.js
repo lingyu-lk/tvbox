@@ -1,0 +1,21 @@
+var rule = {
+    title:'Pornhub',
+    host:'https://www.pornhub.com',
+    searchUrl:'/video/search?search=**',
+    url:'/fyclass?page=fypage',
+    headers:{
+        'User-Agent':'MOBILE_UA'
+    },
+    timeout:5000,
+    class_name:'最新&最热&最多观看&最高评分',
+    class_url:'video?o=mr&page=fypage&c=1|video?o=ht&page=fypage&c=1|video?o=mv&page=fypage&c=1|video?o=tr&page=fypage&c=1',
+    limit:5,
+    play_parse:true,
+    lazy:'',
+    一级:'.pcVideoListItem;.title&&Text;img&&data-src;.views&&Text;a&&href',
+    二级:'*',
+    搜索:'.pcVideoListItem;.title&&Text;img&&data-src;.views&&Text;a&&href',
+    searchable:1,
+    quickSearch:1,
+    filterable:0,
+}
