@@ -5,5 +5,9 @@
     {"key": "drpy_js_Anime1动畫", "name": "动漫 | Anime1动畫", "type": 3, "api": "./lib/drpy2.min.js", "ext": "./js/Anime1动畫.js"},
     {"key": "drpy_js_OmoFun", "name": "动漫 | OmoFun", "type": 3, "api": "./lib/drpy2.min.js", "ext": "./js/OmoFun.js"},
     {"key": "drpy_js_风车动漫", "name": "动漫 | 风车动漫", "type": 3, "api": "./lib/drpy2.min.js", "ext": "./js/风车动漫.js"}
-  ]
+  ],
+  "parses": [
+    {"name": "Json聚合", "type": 3, "url": "Demo"}
+  ],
+  "flags": ["youku", "qq", "iqiyi", "qiyi", "letv", "sohu", "tudou", "pptv", "mgtv", "wasu"]
 }
