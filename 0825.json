@@ -2,6 +2,7 @@
   "spider": "./jar/fan.txt;md5;9b3e327c02439fe4e1d6223beca9ed17",
   "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
   "sites": [
-    {"key": "drpy_js_Anime1动畫", "name": "动漫 | Anime1动畫", "type": 3, "api": "./lib/drpy2.min.js", "ext": "./js/Anime1动畫.js", "searchable": 1, "quickSearch": 1, "filterable": 1}
+    {"key": "drpy_js_Anime1动畫", "name": "动漫 | Anime1动畫", "type": 3, "api": "./lib/drpy2.min.js", "ext": "./js/Anime1动畫.js", "searchable": 1, "quickSearch": 1, "filterable": 1},
+    {"key": "drpy_js_OmoFun", "name": "动漫 | OmoFun", "type": 3, "api": "./lib/drpy2.min.js", "ext": "./js/OmoFun.js", "searchable": 1, "quickSearch": 1, "filterable": 0}
   ]
 }

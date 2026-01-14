@@ -1,0 +1,29 @@
+var rule = {
+	title: 'OmoFun动漫',
+	host: 'https://omofun.in',
+	url: '/vod/type/fyclass-fypage.html',
+	searchUrl: '/vod/search.html?wd=**',
+	searchable: 2,
+	quickSearch: 0,
+	filterable: 0,
+	headers: {
+		'User-Agent': 'MOBILE_UA',
+	},
+	timeout: 5000,
+	class_name: '日漫&剧场版',
+	class_url: 'anime&movie',
+	play_parse: true,
+	lazy: '',
+	limit: 6,
+	推荐: '.module-items .module-poster-item;a&&title;.module-item-pic img&&data-original;.module-item-note&&Text;a&&href',
+	一级: '.module-items .module-poster-item;a&&title;.module-item-pic img&&data-original;.module-item-note&&Text;a&&href',
+	二级: {
+		title: 'h1&&Text',
+		img: '.module-item-pic img&&data-original',
+		desc: '.video-info-items:eq(3)&&Text;.video-info-items:eq(2)&&Text;.video-info-items:eq(1)&&Text',
+		content: '.vod_content&&Text',
+		tabs: '.module-tab-item',
+		lists: '.module-play-list:eq(#id) a'
+	},
+	搜索: '.module-items .module-search-item;a&&title;.module-item-pic img&&data-original;.video-serial&&Text;a&&href',
+}
