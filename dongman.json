@@ -1,5 +1,4 @@
 {
-"spider":"https://cdn.jsdelivr.net/gh/lingyu-lk/tvbox@main/jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9",
 "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 "sites":[
 {"key":"drpy_js_AGE动漫","name":"动漫 | AGE动漫[js]","type":3,"api":"https://cdn.jsdelivr.net/gh/lingyu-lk/tvbox@main/lib/drpy2.min.js","ext":"https://cdn.jsdelivr.net/gh/lingyu-lk/tvbox@main/js/AGE动漫.js"}
