@@ -16,8 +16,8 @@ var rule = {
 	play_parse: true,
 	lazy: '',
 	limit: 6,
-	推荐: '.module-item;a&&title;img&&data-original;.module-item-note&&Text;a&&href',
-	一级: '.module-item;a&&title;img&&data-original;.module-item-note&&Text;a&&href',
+	推荐: '.module-poster-item;a&&title;.module-item-pic img&&data-original;.module-item-note&&Text;a&&href',
+	一级: '.module-poster-item;a&&title;.module-item-pic img&&data-original;.module-item-note&&Text;a&&href',
 	二级: {
 		title: 'h1&&Text',
 		img: '.module-item-pic img&&data-original',
@@ -26,5 +26,5 @@ var rule = {
 		tabs: '.module-tab-item',
 		lists: '.module-play-list:eq(#id) a'
 	},
-	搜索: '.module-item;a&&title;img&&data-original;.module-item-note&&Text;a&&href',
+	搜索: '.module-poster-item;a&&title;.module-item-pic img&&data-original;.module-item-note&&Text;a&&href',
 }
