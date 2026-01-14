@@ -1,12 +1,13 @@
 {
-"spider":"./jar/fan.txt;md5;9b3e327c02439fe4e1d6223beca9ed17",
-"wallpaper":"https://jianbian.chuqiuyu.workers.dev",
-"sites":[
-{"key":"drpy_js_AGE动漫","name":"动漫 | AGE动漫[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/AGE动漫.js"}
-],
-"parses":[
-{"name":"Json聚合","type":3,"url":"Demo"}
-],
-"flags":["youku","优酷","qq","腾讯","iqiyi","qiyi","爱奇艺","bilibili","哔哩哔哩","mgtv","芒果"],
-"ads":[]
+  "spider": "./jar/fan.txt;md5;9b3e327c02439fe4e1d6223beca9ed17",
+  "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
+  "sites": [
+    {
+      "key": "drpy_js_AGE动漫",
+      "name": "动漫 | AGE动漫[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/AGE动漫.js"
+    }
+  ]
 }
