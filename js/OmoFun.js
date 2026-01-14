@@ -1,6 +1,7 @@
 var rule = {
 	title: 'OmoFun动漫',
 	host: 'https://omofun.in',
+	homeUrl: '/',
 	url: '/vod/type/fyclass.html',
 	searchUrl: '/vod/search.html?wd=**',
 	searchable: 2,
