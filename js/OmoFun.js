@@ -1,7 +1,7 @@
 var rule = {
 	title: 'OmoFun动漫',
 	host: 'https://omofun.in',
-	url: '/vod/type/fyclass-fypage.html',
+	url: '/vod/type/fyclass.html',
 	searchUrl: '/vod/search.html?wd=**',
 	searchable: 2,
 	quickSearch: 0,
@@ -15,8 +15,8 @@ var rule = {
 	play_parse: true,
 	lazy: '',
 	limit: 6,
-	推荐: '.module-items .module-poster-item;a&&title;.module-item-pic img&&data-original;.module-item-note&&Text;a&&href',
-	一级: '.module-items .module-poster-item;a&&title;.module-item-pic img&&data-original;.module-item-note&&Text;a&&href',
+	推荐: '.module-poster-item;a&&title;.module-item-pic img&&data-original;.module-item-note&&Text;a&&href',
+	一级: '.module-poster-item;a&&title;.module-item-pic img&&data-original;.module-item-note&&Text;a&&href',
 	二级: {
 		title: 'h1&&Text',
 		img: '.module-item-pic img&&data-original',
@@ -25,5 +25,5 @@ var rule = {
 		tabs: '.module-tab-item',
 		lists: '.module-play-list:eq(#id) a'
 	},
-	搜索: '.module-items .module-search-item;a&&title;.module-item-pic img&&data-original;.video-serial&&Text;a&&href',
+	搜索: '.module-search-item;a&&title;.module-item-pic img&&data-original;.video-serial&&Text;a&&href',
 }
