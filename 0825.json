@@ -7,7 +7,10 @@
       "name": "动漫 | AGE动漫",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./js/AGE动漫.js"
+      "ext": "./js/AGE动漫.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     }
   ]
 }
